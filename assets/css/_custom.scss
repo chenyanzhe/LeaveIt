@@ -2,3 +2,11 @@
 // Custom style
 // ==============================
 // You can override the variables in _variables.scss to customize the style
+.intro .avatar img {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.social-links {
+    padding: 10px;
+}
