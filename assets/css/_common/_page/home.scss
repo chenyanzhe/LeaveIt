@@ -42,6 +42,7 @@
   .social-links {
     font-size: 1.8em;
     a {
+      padding: 0 2px;
       &:hover {
         background-color: transparent;
       }
@@ -50,4 +51,6 @@
 
   .with-love {
     color: #BD3432;
+    margin-left: 1px;
+	  margin-right: 1px;
   }
