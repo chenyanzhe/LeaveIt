@@ -25,7 +25,7 @@ jQuery(function($) {
         $('body').toggleClass('dark-theme', isDark)
         $('.theme-switch').on('click', () => {
             $('body').toggleClass('dark-theme')
-            $('.theme-switch > .iconfont').toggleClass('icon-baitianmoshimingliangmoshi icon-yejianmoshi')
+            $('.theme-switch > .fas').toggleClass('fa-sun fa-moon')
             window.localStorage &&
                 window.localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light', )
         })
