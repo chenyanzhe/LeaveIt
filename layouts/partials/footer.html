@@ -4,7 +4,7 @@
         {{ with .Site.Params.since }}
             <span itemprop="copyrightYear">{{.}} - {{ now.Year }} · </span>
         {{ end }}
-        <span>Made with<i class="with-love fas fa-heart fa-fw"></i>in Shanghai · </span>
+        <span>Made with<a href="/love" style="cursor:default"><i class="with-love fas fa-heart fa-fw"></i></a>in Shanghai · </span>
         {{ with .Site.Params.beian }}
             <a href="http://www.miibeian.gov.cn/" target="_blank" rel="external nofollow">{{ . }} </a> ·
         {{ end }}
