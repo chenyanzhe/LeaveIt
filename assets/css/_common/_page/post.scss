@@ -196,9 +196,7 @@
 
     }
 
-
     .post-nav {
-
         &:before,
         &:after {
             content: " ";
@@ -207,7 +205,7 @@
 
         & a.prev,
         & a.next {
-            font-weight: 600;
+            font-weight: normal;
             font-size: 16px;
 
             transition-property: transform;
