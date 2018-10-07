@@ -16,8 +16,9 @@
 {{ end }} 
 {{ if .IsPage }}
 <script type="application/ld+json">
- "@context" : "http://schema.org",
-    "@type" : "BlogPosting",
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
     "mainEntityOfPage": {
          "@type": "WebPage",
          "@id": "{{ .Site.BaseURL }}"
