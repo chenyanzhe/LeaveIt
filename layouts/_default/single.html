@@ -36,6 +36,8 @@
         {{ end }}
         <!-- end featured_image-->
      
+        <!-- Wrap Image with Figure Tag without Shortcode -->
+        <!-- https://www.junian.net/hugo-image-figure-wrap/ -->
           {{ $reAltIn := "<img src=\"([^\"]+)\" alt=\"([^\"]+)?\" />" }}
           {{ $reAltOut :=  ( printf "<figure><img src=\"/images/ring.svg\" data-sizes=\"auto\" data-src=\"%s$1\" alt=\"$2\" class=\"lazyload\"><figcaption class=\"image-caption\">$2</figcaption></figure>" $cdn_url ) }}
           {{ $altContent := .Content | replaceRE $reAltIn $reAltOut | safeHTML }}
