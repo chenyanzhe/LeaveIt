@@ -7,6 +7,8 @@ paginate = 12
 enableEmoji = true
 enableRobotsTXT = true
 googleAnalytics = ""
+hasCJKLanguage = true
+disableHugoGeneratorInject = true
 
 preserveTaxonomyNames = true
 
